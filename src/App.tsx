@@ -11,13 +11,6 @@ type Layer = {
   status: "observable" | "hidden" | "validated";
 };
 
-type HypothesisResult = {
-  hypothesis: string;
-  domain: string;
-  verdict: string;
-  score: number;
-};
-
 type AnalysisResult = {
   m1: string;
   m2: string[];
